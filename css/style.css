@@ -14,10 +14,6 @@ figure{
     --bs-gutter-x: 0;
 }
 
-.bg-primary-subtle{
-    background-color: red
-}
-
 
 /* HEADER */
 
@@ -85,5 +81,6 @@ header .under-jumbo .image-container:hover{
 main .under-jumbo img:hover{
     border: 2px solid #2C64E6;
 }
+
 
 
