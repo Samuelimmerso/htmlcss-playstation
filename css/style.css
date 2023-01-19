@@ -1,6 +1,7 @@
 /* GENERICS */
 figure{
     margin: 0;
+    cursor: pointer;
 }
 
 .btn-warning{
@@ -54,15 +55,31 @@ nav .lens{
 
 /* under-jumbo */
 
-.under-jumbo img{
+header .under-jumbo img{
     border: 2px solid white;
 }
 
-.under-jumbo .image-container:hover{
+header .under-jumbo .image-container:hover{
     border: 2px solid #2C64E6;
     
 }
 
 
+/* MAIN */
+
+.under-console figure{
+    filter: opacity(50%);
+}
+
+.under-console figure:hover{
+    filter: opacity(100%);
+    border-bottom: 2px #2C64E6 solid;
+}
+
+/* under-jumbo */
+
+main .under-jumbo img:hover{
+    border: 2px solid #2C64E6;
+}
 
 
